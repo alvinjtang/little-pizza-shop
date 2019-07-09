@@ -6,7 +6,7 @@ import {logout} from '../store'
 
 const Navbar = ({handleClick, isLoggedIn, isAdmin}) => (
   <div id="navbar">
-    <Link to="/allpizzas">
+    <Link to="/home">
       <img id="logo" src="/Grace Topper Logo.png" />
     </Link>
     <nav>
@@ -17,10 +17,8 @@ const Navbar = ({handleClick, isLoggedIn, isAdmin}) => (
           <a href="#" onClick={handleClick}>
             Logout
           </a>
-          <div>
-            <Link to="/allpizzas">Pizzas</Link>
-            <Link to="/cart">Cart</Link>
-          </div>
+          <Link to="/allpizzas">Pizzas</Link>
+          <Link to="/cart">Cart</Link>
         </div>
       ) : (
         <div>

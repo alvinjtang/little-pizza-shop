@@ -1,5 +1,6 @@
 html {
-  background-image: url('https://wallpapercave.com/wp/L7mMiel.jpg');
+  background-image: url('/GraceTopperWallpaper.png');
+  background-size: cover;
 }
 
 body {
@@ -8,8 +9,11 @@ body {
   font-variant: normal;
   font-weight: 100;
   line-height: 26.4px;
-  background-color: #ffffff8c;
   padding: 2%;
+}
+
+.title {
+  font-family: 'Vollkorn', serif;
 }
 
 a {
@@ -47,7 +51,6 @@ form div {
   background-size: cover;
   height: 100%;
   width: 100%;
-  margin-top: 20vh;
 }
 
 /* Single Pizza */
@@ -92,6 +95,13 @@ form div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#pizza-title {
+  display: flex;
+  justify-content: center;
 }
 
 /* Carts */
@@ -100,4 +110,60 @@ form div {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Cart */
+
+.pizza-img-cart {
+  height: auto;
+  width: auto;
+  max-width: 15vw;
+  max-height: 15vh;
+}
+
+/* OrderHistory */
+
+.thumbnail {
+  height: 5vh;
+  width: 5vw;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  height: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+th,
+td {
+  border-bottom: 3px solid #ddd;
+}
+
+.row:hover {
+  background-color: #ffbcbcda;
+}
+
+/* Home */
+
+#home {
+  font-family: 'Vollkorn', serif;
+  font-size: 200%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+
+/* Admin */
+
+.admin-pizza {
+  display: flex;
+  flex-direction: row;
 }

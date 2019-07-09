@@ -5,6 +5,7 @@ import {SinglePizza} from './index'
 import {createOrder, deleteOrder} from '../store/orders'
 import {getActiveCart} from '../store/carts'
 import SimpleSnackbar from './snackbars'
+import Button from '@material-ui/core/Button'
 
 export class PizzaList extends Component {
   constructor() {

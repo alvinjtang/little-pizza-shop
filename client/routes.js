@@ -12,7 +12,9 @@ import {
   UserProfile,
   UpdateProfile,
   Admin,
-  GuestCart
+  GuestCart,
+  Nope,
+  Home
 } from './components'
 import {me} from './store'
 
@@ -30,12 +32,13 @@ class Routes extends Component {
     return (
       <Switch>
         {/* Routes placed here are available to all visitors */}
-        <Route exact path="/" component={PizzaList} />
+        <Route exact path="/" component={Home} />
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
         <Route path="/allpizzas" component={PizzaList} />
         <Route path="/checkout" component={Checkout} />
         <Route path="/guestcart" component={GuestCart} />
+        <Route path="/home" component={Home} />
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}

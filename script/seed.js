@@ -32,7 +32,8 @@ async function seed() {
       name: 'Pepperoni',
       size: 'Small',
       crust: 'Normal',
-      imageUrl: 'https://www.cicis.com/media/1139/pizza_trad_pepperoni_sm.png',
+      imageUrl:
+        'https://www.cicis.com/wp-content/uploads/2019/02/pepperoni_pizza_3-4_c.png',
       price: 10.95
     }),
     Pizza.create({
@@ -40,49 +41,55 @@ async function seed() {
       size: 'Small',
       crust: 'Normal',
       imageUrl:
-        'https://www.cicis.com/media/1158/pizza_adven_hampineapple_sm.png',
+        'https://www.cicis.com/wp-content/uploads/2019/02/pizza_hawaiian_angle_c.png',
       price: 10.95
     }),
     Pizza.create({
       name: 'Cheese',
       size: 'Small',
       crust: 'Normal',
-      imageUrl: 'https://www.cicis.com/media/1177/pizza_trad_cheese_sm.png',
+      imageUrl:
+        'https://www.cicis.com/wp-content/uploads/2019/02/pizza_cheese_angle_c.png',
       price: 9.95
     }),
     Pizza.create({
       name: 'Supreme',
       size: 'Medium',
       crust: 'Normal',
-      imageUrl: 'https://www.cicis.com/media/1172/pizza_trad_supreme_sm.png',
+      imageUrl:
+        'https://www.cicis.com/wp-content/uploads/2019/02/supreme_pizza_3-4_b.png',
       price: 6.95
     }),
     Pizza.create({
       name: 'Meat Lovers',
       size: 'Medium',
       crust: 'Normal',
-      imageUrl: 'https://www.cicis.com/media/1175/pizza_trad_meateater_sm.png',
+      imageUrl:
+        'https://www.cicis.com/wp-content/uploads/2019/02/meat_eater_pizza_3-4_b.png',
       price: 11.95
     }),
     Pizza.create({
       name: 'Mac & Cheese',
       size: 'Small',
       crust: 'Normal',
-      imageUrl: 'https://www.cicis.com/media/1160/pizza_adven_maccheese_sm.png',
+      imageUrl:
+        'https://www.cicis.com/wp-content/uploads/2019/02/mac_and_cheese_pizza_3-4_b.png',
       price: 9.95
     }),
     Pizza.create({
       name: 'Vegetarian',
       size: 'Small',
       crust: 'Normal',
-      imageUrl: 'https://www.cicis.com/media/1173/pizza_trad_veggie_sm.png',
+      imageUrl:
+        'https://www.cicis.com/wp-content/uploads/2019/02/pizza_veggie_angle_c.png',
       price: 6.95
     }),
     Pizza.create({
       name: 'Bianca',
       size: 'Small',
       crust: 'Normal',
-      imageUrl: 'https://www.cicis.com/media/1173/pizza_trad_veggie_sm.png',
+      imageUrl:
+        'https://www.cicis.com/wp-content/uploads/2019/02/pizza_alfredo_angle_c.png',
       price: 6.95
     }),
     Cart.create({
